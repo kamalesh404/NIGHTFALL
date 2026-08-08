@@ -17,8 +17,12 @@ export const MovementConfigSchema = z.object({
   crouchHeightScale: z.number().min(0.1).max(1),
   /** Standing character height in meters */
   standHeight: z.number().positive(),
+  /** Character capsule/AABB radius in meters (collision footprint) */
+  playerRadius: z.number().positive(),
   /** Fixed jump height in meters (no air control) */
   jumpHeight: z.number().positive(),
+  /** Terminal fall speed in m/s, clamps gravity to prevent tunneling */
+  maxFallSpeed: z.number().positive(),
   /** Boost applied to jump height when jumping while sprinting */
   sprintJumpHeightMultiplier: z.number().min(1),
   /** Gravity in m/s^2 */

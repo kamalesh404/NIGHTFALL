@@ -29,7 +29,9 @@ pnpm test        # Vitest unit + integration tests
 - [x] `packages/protocol` — Zod schemas for classes, weapons, movement, match, combat, xp
 - [x] `packages/shared` — `computeFinalSpeed` (multiplicative formula), jump physics,
       damage calc with config-driven falloff + headshot multiplier
-- [ ] Movement physics engine (fixed timestep integration, collision)
+- [x] Movement physics engine — fixed-timestep kinematic step (WASD, sprint/crouch/ADS,
+      jump w/ no air control, gravity, terminal velocity), AABB world collision
+      (walls, crates, ceiling, bounds), server-side input validation + displacement cap
 - [ ] Combat resolution (hitscan / projectile / melee, server-authoritative)
 - [ ] Networking protocol + message schemas
 - [ ] Server game core (20Hz MatchRoom, FFA mode)
