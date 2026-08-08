@@ -1,0 +1,8 @@
+{
+  "meleeDamage": 40,
+  "meleeCooldownSec": 0.9,
+  "meleeRange": 2.0,
+  "assistDamageThreshold": 40,
+  "assistWindowSec": 3,
+  "killstreakWindowSec": 4
+}

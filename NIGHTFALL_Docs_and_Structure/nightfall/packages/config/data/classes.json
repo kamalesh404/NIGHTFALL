@@ -1,0 +1,92 @@
+{
+  "sentinel": {
+    "id": "sentinel",
+    "name": "Sentinel",
+    "role": "Frontline",
+    "hp": 110,
+    "speedMultiplier": 0.98,
+    "primaryWeapon": "assault-rifle",
+    "secondaryWeapon": "p-18-pistol"
+  },
+  "phantom": {
+    "id": "phantom",
+    "name": "Phantom",
+    "role": "Sniper",
+    "hp": 80,
+    "speedMultiplier": 1.08,
+    "primaryWeapon": "sniper-rifle",
+    "secondaryWeapon": "p-18-pistol"
+  },
+  "vanguard": {
+    "id": "vanguard",
+    "name": "Vanguard",
+    "role": "Breacher",
+    "hp": 125,
+    "speedMultiplier": 0.95,
+    "primaryWeapon": "shotgun",
+    "secondaryWeapon": "p-18-pistol"
+  },
+  "titan": {
+    "id": "titan",
+    "name": "Titan",
+    "role": "Heavy",
+    "hp": 160,
+    "speedMultiplier": 0.82,
+    "primaryWeapon": "heavy-machine-gun",
+    "secondaryWeapon": "p-18-pistol"
+  },
+  "nomad": {
+    "id": "nomad",
+    "name": "Nomad",
+    "role": "Flex",
+    "hp": 100,
+    "speedMultiplier": 1.02,
+    "primaryWeapon": "tactical-rifle",
+    "secondaryWeapon": "p-18-pistol"
+  },
+  "specter": {
+    "id": "specter",
+    "name": "Specter",
+    "role": "Assassin",
+    "hp": 90,
+    "speedMultiplier": 1.1,
+    "primaryWeapon": "silenced-smg",
+    "secondaryWeapon": null
+  },
+  "falcon": {
+    "id": "falcon",
+    "name": "Falcon",
+    "role": "Precision",
+    "hp": 90,
+    "speedMultiplier": 1.08,
+    "primaryWeapon": "burst-rifle",
+    "secondaryWeapon": "p-18-pistol"
+  },
+  "wrecker": {
+    "id": "wrecker",
+    "name": "Wrecker",
+    "role": "Demolition",
+    "hp": 130,
+    "speedMultiplier": 0.92,
+    "primaryWeapon": "rocket-launcher",
+    "secondaryWeapon": "p-18-pistol"
+  },
+  "rogue": {
+    "id": "rogue",
+    "name": "Rogue",
+    "role": "Duelist",
+    "hp": 95,
+    "speedMultiplier": 1.08,
+    "primaryWeapon": "dual-pistols",
+    "secondaryWeapon": null
+  },
+  "reaper": {
+    "id": "reaper",
+    "name": "Reaper",
+    "role": "Melee",
+    "hp": 90,
+    "speedMultiplier": 1.15,
+    "primaryWeapon": "katana",
+    "secondaryWeapon": null
+  }
+}

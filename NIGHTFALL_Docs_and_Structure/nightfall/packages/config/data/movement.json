@@ -1,0 +1,12 @@
+{
+  "baseSpeed": 7.0,
+  "sprintMultiplier": 1.5,
+  "crouchMultiplier": 0.5,
+  "crouchHeightScale": 0.5,
+  "standHeight": 1.8,
+  "jumpHeight": 1.2,
+  "sprintJumpHeightMultiplier": 1.2,
+  "gravity": 20.0,
+  "tickRate": 20,
+  "speedValidationTolerance": 1.1
+}

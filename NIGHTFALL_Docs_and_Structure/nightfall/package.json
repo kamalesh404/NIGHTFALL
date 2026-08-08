@@ -1,0 +1,23 @@
+{
+  "name": "nightfall",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NIGHTFALL — Browser-based multiplayer FPS. 10 hero classes, 3 maps, 4 game modes. Built with TypeScript, Three.js, Node.js, Socket.IO.",
+  "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --parallel --filter \"./apps/*\" dev",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vitest/coverage-v8": "^3.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^3.0.0"
+  }
+}

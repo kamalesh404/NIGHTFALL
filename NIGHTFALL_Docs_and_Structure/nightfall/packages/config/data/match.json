@@ -1,0 +1,17 @@
+{
+  "durationSec": 240,
+  "respawnSec": 0,
+  "scoreLimits": {
+    "ffa": 30,
+    "tdm": 40,
+    "ctf": 3,
+    "hardpoint": 250
+  },
+  "botDifficulty": "normal",
+  "hardpointRotationSec": 60,
+  "hardpointZonesPerMatch": 3,
+  "mapVoteSec": 15,
+  "publicMaxPlayers": 8,
+  "privateMaxPlayers": 12,
+  "preMatchCountdownSec": 5
+}
